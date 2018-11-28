@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
-import Search from './Search';
 import Calc from './Calculator';
-import Game from './Game'
+
 
 
 class App extends Component {
@@ -10,11 +8,12 @@ class App extends Component {
     return (
       <div className="App">
 
-          <Search />
+          
           <br/>
-          <p>Here Is a Calculator Created with ReactJS</p>
+          <h2>Here is a Calculator Created totally with RactJS</h2>
+          <h3>Hope That is usefull for you</h3>
           <Calc />
-          <Game />
+          
           
       </div>
     );
