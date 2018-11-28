@@ -12,7 +12,7 @@ class App extends Component {
 
           <Search />
           <br/>
-          
+          <p>Here Is a Calculator Created with ReactJS</p>
           <Calc />
           <Game />
           
