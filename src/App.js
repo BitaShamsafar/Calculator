@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CD from './countdown';
+
 import Search from './Search';
 import Calc from './Calculator';
 import Game from './Game'
@@ -12,7 +12,7 @@ class App extends Component {
 
           <Search />
           <br/>
-          <CD />
+          
           <Calc />
           <Game />
           
